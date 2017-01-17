@@ -1,4 +1,4 @@
-class stringProcessor{
+class stringBuilder{
     private data: string;
     constructor(input: string){
         input = data;
@@ -23,3 +23,5 @@ class stringProcessor{
         this.data = chars.join('');
     }
 }
+
+let word:stringBuilder = new stringBuilder("Kelsey");
